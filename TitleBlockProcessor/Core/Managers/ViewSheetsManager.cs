@@ -45,6 +45,7 @@ public class ViewSheetsManager
         return titleBlock == null ? null : new TitleBlockData(titleBlock);
     }
 
+    //caching for future using [get data one time and use all session ]
     public TitleBlockData GetTitleBlockMethod3(ViewSheet sheet)
     {
         return _viewSheetsService.GetTitleBlockData(sheet);

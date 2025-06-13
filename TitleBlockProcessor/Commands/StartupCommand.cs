@@ -22,11 +22,14 @@ public class StartupCommand : ExternalCommand
             var sheetTitleService = new SheetTitleBlockService(Document);
             var viewSheetService = new ViewSheetsService(Document, sheetTitleService);
             var sheetManager = new ViewSheetsManager(Document, sheetTitleService, viewSheetService);
+
+
+            //init Performance Service
             var sheets = sheetManager.GetAllSheets();
             var TitleBlockPerformanceService = new TitleBlockPerformanceService(sheets, sheetManager, sheetTitleService, viewSheetService);
           
             
-            //Task
+            //Run test
             TitleBlockPerformanceService.RunAllBenchmarks();
             TitleBlockPerformanceService.WriteBenchmarkResultsToDesktop();
             TaskDialog.Show("info", "Done!");
