@@ -9,7 +9,7 @@ Compare execution time, memory usage, and efficiency of:
 
 - `FilteredElementCollector` on each sheet
 - `GetDependentElements()` per sheet
-- Cached results from `GetDependentElements()` ---> Retrieve data once and reuse it during the session.
+-   `GetDependentElements()` and Cach results to Retrieve data once and reuse it during the session.
 
 ## 🧪 Test Details
 
