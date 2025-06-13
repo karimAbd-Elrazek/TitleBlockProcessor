@@ -1,0 +1,12 @@
+﻿<RevitAddIns>
+    <AddIn Type="Command">
+        <Name>TitleBlockProcessor</Name>
+        <Assembly>TitleBlockProcessor/TitleBlockProcessor.dll</Assembly>
+        <AddInId>E5BAA2F7-03E7-4CF6-AD3A-0FFBB1BD4D75</AddInId>
+        <FullClassName>TitleBlockProcessor.Commands.StartupCommand</FullClassName>
+        <Text>TitleBlockProcessor</Text>
+        <VendorId>Development</VendorId>
+        <VendorDescription></VendorDescription>
+        <VendorEmail></VendorEmail>
+    </AddIn>
+</RevitAddIns>
