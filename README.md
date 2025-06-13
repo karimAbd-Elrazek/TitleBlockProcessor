@@ -28,6 +28,6 @@ Compare execution time, memory usage, and efficiency of:
 
 ## ✅ Requirements
 
-- Autodesk Revit (tested with 2020+)
+- Autodesk Revit ( 2020 or above)
 
 
