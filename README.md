@@ -21,9 +21,9 @@ Compare execution time, memory usage, and efficiency of:
 
 | Method | Avg Time/Sheet | Total Time | Notes |
 |--------|----------------|------------|-------|
-| FilteredElementCollector | 1293 ms | 71.1 s | Slowest |
-| GetDependentElements     | 0.39 ms  | 21 ms  | Fast |
-| Cached Results           | 0.14 ms  | 8 ms   | Fastest |
+| FilteredElementCollector | 1293 ms | 71.1 s | 
+| GetDependentElements     | 0.39 ms  | 21 ms  | 
+| Cached Results           | 0.14 ms  | 8 ms   | 
 
 
 ## ✅ Requirements
